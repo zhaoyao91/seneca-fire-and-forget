@@ -19,7 +19,7 @@ swallow any errors from the act you called. _The callback is optional._
 ```javascript
 var seneca = require('seneca')()
 
-seneca.use(require('fire-and-forget'))
+seneca.use(require('seneca-fire-and-forget'))
 
 // A basic pattern to use
 seneca.add({ role: 'foo' }, (args, done) => {
